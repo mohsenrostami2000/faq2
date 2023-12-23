@@ -42,7 +42,7 @@ p {
 
 /* body */
 body {
-    background-image: url(./faq-accordion-main/assets/images/background-pattern-mobile.svg);
+    background-image: url(./background-pattern-mobile.svg);
     background-repeat: no-repeat;
     background-size: 100vw;
     background-color: hsl(275, 100%, 97%);
@@ -102,7 +102,7 @@ footer {
 
 @media (min-width:600px) {
     body {
-        background-image: url(./faq-accordion-main/assets/images/background-pattern-desktop.svg);
+        background-image: url(./background-pattern-desktop.svg);
     }
 
     main {
