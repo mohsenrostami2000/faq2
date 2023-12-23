@@ -9,11 +9,11 @@ for(let i = 0; i < questions.length; i++){
         // console.log('clicked')
         if(!answer[i].classList.contains('show-answer')){
             answer[i].classList.add('show-answer');
-            img[i].innerHTML = `<img src="./assets/images/icon-minus.svg" alt="minus img">`;
+            img[i].innerHTML = `<img src="./icon-minus.svg" alt="minus img">`;
 
         } else if(answer[i].classList.contains('show-answer')){
             answer[i].classList.remove('show-answer');
-            img[i].innerHTML = `<img src="./assets/images/icon-plus.svg" alt="plus img">`;
+            img[i].innerHTML = `<img src="./icon-plus.svg" alt="plus img">`;
         }
     })
 }
